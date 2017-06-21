@@ -11,8 +11,6 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-//Dao가 갖춰야할것은 SqlSessionFactory
-
 public class PredictDAO {
 	private SqlSessionFactory sqlSessionFactory;
 	public PredictDAO(){
@@ -23,7 +21,6 @@ public class PredictDAO {
 
 		try 
 		{
-			// 여기로 가서 처리해라
 			return session.selectList("sqlMapper.selectAll");
 		}
 		finally
