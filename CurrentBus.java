@@ -1,6 +1,5 @@
 package com.dongguk.bus;
 
-//버스번호, 버스노선번호, 다음역, 예상시간, 빈자리, 예상빈자리
 public class CurrentBus {
 	private String num;
 	private String busNum;
